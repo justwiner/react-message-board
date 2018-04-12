@@ -1,0 +1,8 @@
+.bg {
+  width: 700px;
+}
+.ant-card {
+  box-shadow: 2px 2px 20px #bbb;
+  margin-bottom: 200px;
+  min-height: 200px;
+}

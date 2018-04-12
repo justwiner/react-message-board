@@ -1,0 +1,24 @@
+.create-topic {
+  height: 60px;
+  font-size: 1em;
+  margin-bottom: 10%;
+  border-radius: 20px;
+  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+  padding: 3%;
+  box-shadow: 1px 1px 20px #bbb;
+}
+.eMail {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-top: 15%;
+  color: chocolate;
+  padding-right: 10px;
+  margin-bottom: 10px;
+}
+.eMail i {
+  cursor: pointer;
+}
+.eMail span {
+  margin-right: 20px
+}

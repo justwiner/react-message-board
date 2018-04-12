@@ -1,0 +1,64 @@
+.avatar, .reply-avatar {
+    border: 1px solid #e7e9f0;
+}
+.topicBox {
+    margin-bottom: 20px;
+}
+.topic > div {
+    display: flex;
+    justify-content: space-around;
+}
+.topic > div > div,.replys > div > div {
+    display: inline-block;
+}
+.user-info {
+    width: 80%;
+}
+.user-info > span {
+    display: block;
+    text-align: left;
+}
+.user-name {
+    color: chocolate;
+}
+.topic-time {
+    font-size: 10px;
+    color: lightgrey;
+}
+.topic-reply {
+    margin-left: 5%;
+    cursor: pointer;
+}
+.topic-reply:hover {
+    color: red;
+}
+.noTopic {
+    line-height: 200px
+}
+
+.reply-input {
+    margin: 2% 0;
+}
+.reply-input > input::-webkit-input-placeholder, .reply-input > input {
+    font-size: 0.8em;
+}
+
+.replys {
+    margin-top: 2%;
+    display: block;
+}
+.replys > div{
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-start;
+}
+.reply-text {
+    color: black;
+    font-size: 0.85em;
+}
+.reply-avatar {
+    margin-right: 10px;
+}
+.white-space{
+    width: 18%;
+}
